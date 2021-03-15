@@ -1,0 +1,11 @@
+:root{
+    --ozon__blue: #005BFF;
+    --dark__blue: #001A34;
+    --light__grey: #EFF3F6;
+    --danger__color: #F91155;
+    --default__font: 'Roboto', Verdana, sans-serif;
+}
+.wrapper{
+    margin: 0 92px;
+    max-width: 1416px;
+}
