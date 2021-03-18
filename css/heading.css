@@ -1,0 +1,8 @@
+.main_heading{
+    font-family: var(--mf);
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0 64px 0;
+}

@@ -1,0 +1,7 @@
+.courses{
+    display: grid;
+    gap: 24px;
+}
+.cards_wrap{
+    border: 1px solid var(--light__grey);
+}
