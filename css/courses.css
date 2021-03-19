@@ -1,7 +1,46 @@
 .courses{
     display: grid;
     gap: 24px;
+    grid-template-columns: repeat(3, 376px);
+    justify-content: center;
+    font-family: var(--default__font);
+    margin-bottom: 116px;
 }
 .cards_wrap{
     border: 1px solid var(--light__grey);
+    border-radius: 12px;
+    display: grid;
+    grid-template-rows: 173px 54px 60px 80px;
+    box-shadow: 2px 2px 20px #E9EEF1;
+}
+.cards_img{
+    height: 173px;
+    border-radius: 12px 12px 0 0;
+}
+.cards_img__notebooks{
+    background-image: url('../img/notebooks.svg');
+}
+.cards_img__keyboards{
+    background-image: url('../img/keyboards.svg');
+}
+.cards_img__keys{
+    background-image: url('../img/keys.svg');
+}
+.cards_wrap__h5{
+    display: flex;
+    font-size: 24px;
+    margin: 32px 32px 0 32px;
+    color: var(--dark__blue);
+}
+.cards_wrap__p{
+    font-weight: 300;
+    font-size: 16px;
+    margin:16px 32px 0 32px;
+    line-height: 1.2;
+}
+.cards_wrap__link{
+    margin: 28px 32px 32px 32px;
+    color: var(--ozon-blue);
+    text-decoration: none;
+    color: var(--ozon__blue);
 }

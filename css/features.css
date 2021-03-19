@@ -1,0 +1,38 @@
+.features {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 240px);
+    justify-content: center;
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: var(default__font);
+}
+.feature_card__img{
+    height: 100px;
+    background-size:35%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.feature_card__img_cup{
+    background-image: url('../img/cup.svg');
+}
+.feature_card__img_hat{
+    background-image: url('../img/Expert.svg');
+}
+.feature_card__img_clock{
+    background-image: url('../img/clock.svg');
+}
+.feature_card__img_man{
+    background-image: url('../img/Man.svg');
+}
+.feature_card__h5{
+    margin: 32px 0 16px 0;
+    color: var(--dark__blue);
+    font-size: 24px;
+}
+.feature_card__p{
+    color:#33475C;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.3;
+}

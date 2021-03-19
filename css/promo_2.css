@@ -1,0 +1,15 @@
+.promo_second{
+    background-image: url('../img/banner_2.png');
+    height: 583px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 92px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.promo_wrapper_second{
+    padding-left: 0;
+    padding-top: 0;
+    width: 41%;
+}
