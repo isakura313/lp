@@ -6,6 +6,6 @@
     --default__font: 'Roboto', Verdana, sans-serif;
 }
 .wrapper{
-    margin: 0 92px;
+    margin: 0 auto;
     max-width: 1416px;
 }

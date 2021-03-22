@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/code.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
@@ -76,16 +77,17 @@
     <h3 class="main_heading">Преимущества</h3>
     <div class="features">
       <div class="feature_card">
-        <div class="feature_card__img feature_card__img_cup "></div>
+        <div class="feature_card__img feature_card__img_cup"></div>
         <h5 class="feature_card__h5">Лидерство</h5>
-        <p class="feature_card__p">Образовательный проект от лидера российского e-com</p>
+        <p class="feature_card__p">
+          Образовательный проект от лидера российского e-com
+        </p>
       </div>
 
       <div class="feature_card">
         <div class="feature_card__img feature_card__img_hat"></div>
         <h5 class="feature_card__h5">Экспертиза</h5>
-        <p class="feature_card__p">Преподаватели
-          с уникальным опытом</p>
+        <p class="feature_card__p">Преподаватели с уникальным опытом</p>
       </div>
 
       <div class="feature_card">
@@ -97,9 +99,39 @@
       <div class="feature_card">
         <div class="feature_card__img feature_card__img_man"></div>
         <h5 class="feature_card__h5">Кураторы</h5>
-        <p class="feature_card__p">Поддержка преподавателя и куратора на всех этапах обучения</p>
+        <p class="feature_card__p">
+          Поддержка преподавателя и куратора на всех этапах обучения
+        </p>
       </div>
-
     </div>
+    <div class="wrapper_grey">
+      <h3 class="main_heading">Оставить заявку</h3>
+      <form action="index.php" class="feedback_form">
+        <input type="text" class="feedback_form__input" placeholder="Город">
+        <input type="tel" class="feedback_form__input" placeholder="+7">
+        <input type="email" class="feedback_form__input" placeholder="E-mail">
+        <select name="" id="select" class="feedback_form__select">
+          <option value="" disabled selected id="option_dis"> Выберите курс</option>
+          <option value="Python"> Python 18+</option>
+          <option value="Frontend"> Frontend </option>
+          <textarea name="" id="" cols="30" rows="10"
+          class="feedback_form__textarea" placeholder="Комментарий"></textarea>
+        </select>
+        <button class="promo_wrapper__btn" type="submit">Выбрать курс</button>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="footer__logo"></div>
+      <p class="footer__p">© 2019 ООО «Интернет Решения». Все права защищены.
+        Москва, Пресненская наб., 10, блок С
+        ons@ozon.ru</p>
+      <div class="footer__social">
+        <div class="footer__social_insta"></div>
+        <div class="footer__social_facebook"></div>
+        <div class="footer__social_face"></div>
+        <div class="footer__social_yt"></div>
+      </div>
+      <div class="footer__second_logo"></div>
+    </footer>
   </body>
 </html>

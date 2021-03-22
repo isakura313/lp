@@ -1,0 +1,54 @@
+.wrapper_grey {
+    background-color: var(--light__grey);
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback_form {
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    align-items: center;
+}
+
+.feedback_form .promo_wrapper__btn {
+    color: white;
+    width: 250px;
+}
+
+.feedback_form__input, .feedback_form__select, .feedback_form__textarea {
+    width: 100%;
+    margin-bottom: 32px;
+    font-family: var(--default__font);
+    font-size: 20px;
+    padding: 16px 20px;
+    border: 2px solid #B2BAC2;
+    border-radius: 6px;
+}
+
+.feedback_form__input:focus {
+    border: 2px solid var(--danger__color);
+}
+.feedback_form__select{
+    background: url('../icons/arrow_down.svg');
+    appearance: none;
+    background-position: 96% 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 110%;
+    color: #B2BAC2;
+}
+.feedback_form__select:hover{
+    cursor:pointer;
+}
+.feedback_form__select:focus{
+    color:black;
+}
+.feedback_form__textarea{
+    resize: none;
+}
+.feedback_form__select option{
+    color: black;
+}
