@@ -32,3 +32,9 @@
 .logo_second{
     font-size: 22px;
 }
+.nav_mobile{
+    display: none;
+}
+.burger{
+    display: none;
+}
