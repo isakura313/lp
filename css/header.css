@@ -13,6 +13,29 @@
     width: 182px;
     background-size:contain;
     background-repeat: no-repeat;
+    animation: arrival alternate 1 ease-in 0.8s, blink alternate 2 linear 0.2s 2s;
+}
+@keyframes arrival{
+    0%{
+        opacity: 0;
+        /* bottom: 10%; */
+        transform: translate(-182px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@keyframes blink{
+    0%{
+        transform: translate(0px);
+    }
+    
+    100%{
+        transform: translate(10px);
+    }
 }
 .nav{
     display: flex;
